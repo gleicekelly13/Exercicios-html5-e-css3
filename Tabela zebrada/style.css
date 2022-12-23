@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 300px;
+    border: 2px solid rgb(226, 222, 222);
+    margin: auto;
+    margin-top: 100px;
+}
+
+th {
+    background-color: rgb(226, 222, 222);
+}
+
+td {
+    padding: 5px;
+    font-size: 15px;
+}
+
+tbody tr:nth-child(even) { /* As linhas pares receberão o preenchimento com cor */
+    background-color: rgb(174, 128, 247);
+}
